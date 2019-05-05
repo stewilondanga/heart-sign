@@ -1,4 +1,4 @@
-var navigate = (function() {
+/*var navigate = (function() {
 	$('.dd').toggle();
 	$('.dd_btn').click(function() {
 		var dataName = $(this).attr('data-name');
@@ -6,3 +6,8 @@ var navigate = (function() {
 		$('.' + dataName).toggle();
 	});
 })();
+
+function re(elm) {
+    var newone = elm.cloneNode(true);
+    elm.parentNode.replaceChild(newone, elm);
+}
