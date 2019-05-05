@@ -55,9 +55,13 @@ svg {
   opacity: 0
 }
 
-/*@keyframes heart{to{opacity:1}}
+@keyframes heart {
+  to {
+    opacity: 1
+  }
+}
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
