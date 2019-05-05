@@ -7,7 +7,7 @@ var navigate = (function() {
   });
 })();
 
-/*function re(elm) {
-    var newone = elm.cloneNode(true);
-    elm.parentNode.replaceChild(newone, elm);
+function re(elm) {
+  var newone = elm.cloneNode(true);
+  elm.parentNode.replaceChild(newone, elm);
 }
